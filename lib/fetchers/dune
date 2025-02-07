@@ -1,0 +1,4 @@
+(library
+ (name fetchers)
+ (modules fetcher)
+ (libraries cohttp-lwt-unix lwt))

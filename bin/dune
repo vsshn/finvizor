@@ -1,0 +1,9 @@
+(executable
+ (name main)
+ (modules main)
+ (libraries fetchers))
+
+(executable
+ (name get_tickers)
+ (modules get_tickers)
+ (libraries fetchers TickerGetterHelpers))
