@@ -1,4 +1,4 @@
 (library
  (name TickerGetterHelpers)
  (modules TickerGetter UrlGenerator HtmlParser)
- (libraries re))
+ (libraries re loggers))

@@ -6,4 +6,4 @@
 (executable
  (name get_tickers)
  (modules get_tickers)
- (libraries fetchers TickerGetterHelpers))
+ (libraries fetchers TickerGetterHelpers loggers))
