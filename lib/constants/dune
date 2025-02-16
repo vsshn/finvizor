@@ -1,0 +1,3 @@
+(library
+ (name constants)
+ (modules consts))

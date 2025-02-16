@@ -1,9 +1,9 @@
 (executable
  (name main)
  (modules main)
- (libraries fetchers))
+ (libraries fetchers constants))
 
 (executable
  (name get_tickers)
  (modules get_tickers)
- (libraries fetchers TickerGetterHelpers loggers))
+ (libraries fetchers TickerGetterHelpers loggers constants))
