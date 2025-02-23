@@ -1,4 +1,4 @@
 (library
  (name loggers)
  (modules logger)
- (libraries logs))
+ (libraries fmt logs logs.fmt))

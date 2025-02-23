@@ -6,4 +6,7 @@
 (library
  (name TickerGetterHelpers)
  (modules TickerGetter UrlGenerator HtmlParser)
- (libraries re loggers))
+ (libraries re loggers constants)
+(preprocess
+  (pps ppx_inline_test ppx_assert))
+ (inline_tests))
